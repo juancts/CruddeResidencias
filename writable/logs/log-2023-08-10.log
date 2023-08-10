@@ -193,3 +193,14 @@ in SYSTEMPATH\CodeIgniter.php on line 227.
  1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
  2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
  3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-10 14:09:38 --> Undefined array key "id"
+in APPPATH\Views\residencias\listaresidencias.php on line 28.
+ 1 APPPATH\Views\residencias\listaresidencias.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Views\\residencias\\listaresidencias.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Views\\residencias\\listaresidencias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('residencias/listaresidencias', [], true)
+ 5 APPPATH\Controllers\Residencias_controller.php(14): view('residencias/listaresidencias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Residencias_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residencias_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
