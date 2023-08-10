@@ -9,8 +9,18 @@ class Residencias_controller extends Controller{
 
             $residencia = new Residencias_model();
             $datos['residencias']=$residencia->orderBy('KEY_RESIDENCIA','ASC')->findAll();
-
+            $datos['header']= view('template/header');
+            $datos['footer']= view('template/footer');
 
             return view('residencias/listaresidencias', $datos);
         }
+
+        public function crear(){
+            
+            $datos['header']= view('template/header');
+            $datos['footer']= view('template/footer');
+            return view('residencias/editarresidencia', $datos);
+        }
+
+
 }

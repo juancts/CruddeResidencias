@@ -48,3 +48,4 @@ if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
 $routes->get('residencias', 'Residencias_controller::index');
+$routes->get('crear', 'Residencias_controller::crear');
