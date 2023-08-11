@@ -49,3 +49,8 @@ if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 }
 $routes->get('residencias', 'Residencias_controller::index');
 $routes->get('crear', 'Residencias_controller::crear');
+$routes->get('documentos', 'Documentos_controller::index');
+$routes->get('creardocu', 'Documentos_controller::crear');
+$routes->get('cursos', 'Cursos_controller::index');
+$routes->get('crearcurso', 'Cursos_controller::crear');
+$routes->post('guardarcurso', 'Cursos_controller::guardar');

@@ -1,0 +1,58 @@
+CRITICAL - 2023-08-11 11:46:52 --> Invalid file: "documentos/listaresidencias.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('documentos/listaresidencias.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('documentos/listaresidencias', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('documentos/listaresidencias')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 11:47:10 --> Invalid file: "documentos/listaresidencias.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('documentos/listaresidencias.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('documentos/listaresidencias', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('documentos/listaresidencias')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 12:54:05 --> Class "App\Controllers\Cursos_model" not found
+in APPPATH\Controllers\Cursos_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 12:58:08 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::orderBy(), 0 passed in C:\xampp\htdocs\upimir\Upimirjjr\system\Model.php on line 836 and at least 1 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 1438.
+ 1 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy()
+ 2 APPPATH\Controllers\Cursos_controller.php(14): CodeIgniter\Model->__call('orderBy', [])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 13:01:23 --> Undefined variable $documentos
+in APPPATH\Views\cursos\listacursos.php on line 14.
+ 1 APPPATH\Views\cursos\listacursos.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $documentos', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Views\\cursos\\listacursos.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Views\\cursos\\listacursos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('cursos/listacursos', [], true)
+ 5 APPPATH\Controllers\Cursos_controller.php(17): view('cursos/listacursos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 13:28:35 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Cursos_controller.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cursos_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cursos_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Cursos_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-11 14:08:51 --> [DEPRECATED] printf(): Passing null to parameter #1 ($format) of type string is deprecated in APPPATH\Controllers\Cursos_controller.php on line 27.
+ 1 APPPATH\Controllers\Cursos_controller.php(27): printf(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
