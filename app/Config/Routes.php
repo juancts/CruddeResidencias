@@ -54,3 +54,4 @@ $routes->get('creardocu', 'Documentos_controller::crear');
 $routes->get('cursos', 'Cursos_controller::index');
 $routes->get('crearcurso', 'Cursos_controller::crear');
 $routes->post('guardarcurso', 'Cursos_controller::guardar');
+$routes->get('borrar/(:num)', 'Cursos_controller::borrar/$1');

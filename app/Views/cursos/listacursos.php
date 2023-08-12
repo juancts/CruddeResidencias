@@ -17,7 +17,8 @@
                                 <td><?=$curso['KEY_CURSO']?></td>
                                 <td><?=$curso['DTE_INI'];?></td>
                                 <td><?=$curso['TXT_NOMBRE']?></td>
-                                <td>Editar/Borrar</td>
+                                <td>Editar/
+                                    <a href="<?=base_url('borrar/'.$curso['KEY_CURSO']);?>" class="btn btn-danger" type="button">Borrar</a></td>
                         </tr>
                         <?php 
                             endforeach;

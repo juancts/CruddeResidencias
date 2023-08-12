@@ -12,48 +12,48 @@
             <!-- DATOS GENERALES -->
             <div class="card">
     <div class="form-group row">
-        <label class="col-12 col-md-2 text-md-right" for="codigoresidencia">Nombre del curso:</label>
+        <label class="col-12 col-md-2 text-md-right" for="nombre">Nombre del curso:</label>
         <div class="col-12 col-md-6">
             <input id="nombre" name="nombre" class="form-control" type="text">
         </div>
     </div>
     
     <div class="form-group row">
-        <label class="col-12 col-md-2 text-md-right" for="nombre">Fecha inicio:</label>
+        <label class="col-12 col-md-2 text-md-right" for="fechaini">Fecha inicio:</label>
         <div class="col-12 col-md-6">
             <input id="dateini" name="dateini" class="form-control" type="date">
         </div>
     </div>
     
     <div class="form-group row">
-        <label class="col-12 col-md-2 text-md-right" for="numeroregistro">Fecha Finalización:</label>
+        <label class="col-12 col-md-2 text-md-right" for="fechafin">Fecha Finalización:</label>
         <div class="col-12 col-md-6">
             <input id="datefin" name="datefin" class="form-control" type="date">
         </div>
     </div>
     
     <div class="form-group row">
-        <label class="col-12 col-md-2 text-md-right" for="imagen">Horario:</label>
+        <label class="col-12 col-md-2 text-md-right" for="horario">Horario:</label>
         <div class="col-12 col-md-6">
             <input id="horario" name="horario" class="form-control" type="text">
         </div>
     </div>
     
     <div class="form-group row">
-        <label class="col-12 col-md-2 text-md-right" for="video">Vacantes:</label>
+        <label class="col-12 col-md-2 text-md-right" for="vacantes">Vacantes:</label>
         <div class="col-12 col-md-6">
             <input id="vacantes" name="vacantes" class="form-control" type="text">
         </div>
     </div>
 
     <div class="form-group row">
-        <label class="col-12 col-md-2 text-md-right" for="imagen">Precio:</label>
+        <label class="col-12 col-md-2 text-md-right" for="precio">Precio:</label>
         <div class="col-12 col-md-6">
             <input id="precio" name="precio" class="form-control" type="text">
         </div>
     </div>
     <div class="form-group row">
-        <label class="col-12 col-md-2 text-md-right" for="imagen">Estado:</label>
+        <label class="col-12 col-md-2 text-md-right" for="estado">Estado:</label>
         <div class="col-12 col-md-6">
             <select id="estado" name="estado" class="form-control">
                 <option value="activo">Activo</option>
@@ -63,7 +63,7 @@
         </div>
     </div>
     <div class="form-group row">
-        <label class="col-12 col-md-2 text-md-right" for="imagen">Adjuntar Archivo:</label>
+        <label class="col-12 col-md-2 text-md-right" for="file">Adjuntar Archivo:</label>
         <div class="col-12 col-md-6">
             <input id="file" name="file" class="form-control" type="file">
         </div>

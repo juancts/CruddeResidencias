@@ -56,3 +56,235 @@ WARNING - 2023-08-11 14:08:51 --> [DEPRECATED] printf(): Passing null to paramet
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 16:51:47 --> Undefined constant "App\Controllers\request"
+in APPPATH\Controllers\Cursos_controller.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 16:55:11 --> Undefined property: App\Controllers\Cursos_controller::$1691772911_ebf7db431d5fd75d833b.pdf
+in APPPATH\Controllers\Cursos_controller.php on line 53.
+ 1 APPPATH\Controllers\Cursos_controller.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Cursos_controller::$1691772911_ebf7db431d5fd75d833b.pdf', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 17:30:11 --> Array to string conversion
+in APPPATH\Controllers\Cursos_controller.php on line 69.
+ 1 APPPATH\Controllers\Cursos_controller.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('18')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 17:30:28 --> Array to string conversion
+in APPPATH\Controllers\Cursos_controller.php on line 69.
+ 1 APPPATH\Controllers\Cursos_controller.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('18')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 17:31:08 --> Array to string conversion
+in APPPATH\Controllers\Cursos_controller.php on line 69.
+ 1 APPPATH\Controllers\Cursos_controller.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('18')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 17:56:01 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Cursos_controller.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cursos_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cursos_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Cursos_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 17:58:36 --> unlink(../public/files/): Is a directory
+in APPPATH\Controllers\Cursos_controller.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/files/): Is a directory', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 71)
+ 2 APPPATH\Controllers\Cursos_controller.php(71): unlink('../public/files/')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('20')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 18:00:06 --> unlink(../public/files/): Is a directory
+in APPPATH\Controllers\Cursos_controller.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/files/): Is a directory', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 72)
+ 2 APPPATH\Controllers\Cursos_controller.php(72): unlink('../public/files/')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('20')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-11 18:00:31 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\upimir\Upimirjjr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `up...', 0)
+#1 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `up...')
+#2 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `up...')
+#3 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `up...', Array, false)
+#4 C:\xampp\htdocs\upimir\Upimirjjr\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\upimir\Upimirjjr\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\upimir\Upimirjjr\app\Controllers\Cursos_controller.php(73): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('20')
+#8 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+#9 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\upimir\Upimirjjr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-11 18:00:31 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = \'20\'
+AND `id` IN (\'20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = \'20\'
+AND `id` IN (\'20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = \'20\'
+AND `id` IN (\'20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = :KEY_CURSO:
+AND `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Cursos_controller.php(73): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('20')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-11 18:00:39 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\upimir\Upimirjjr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `up...', 0)
+#1 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `up...')
+#2 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `up...')
+#3 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `up...', Array, false)
+#4 C:\xampp\htdocs\upimir\Upimirjjr\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\upimir\Upimirjjr\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\upimir\Upimirjjr\app\Controllers\Cursos_controller.php(73): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('20')
+#8 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+#9 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\upimir\Upimirjjr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-11 18:00:39 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = \'20\'
+AND `id` IN (\'20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = \'20\'
+AND `id` IN (\'20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = \'20\'
+AND `id` IN (\'20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = :KEY_CURSO:
+AND `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Cursos_controller.php(73): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('20')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-11 18:04:49 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\upimir\Upimirjjr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `up...', 0)
+#1 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `up...')
+#2 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `up...')
+#3 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `up...', Array, false)
+#4 C:\xampp\htdocs\upimir\Upimirjjr\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\upimir\Upimirjjr\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\upimir\Upimirjjr\app\Controllers\Cursos_controller.php(73): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('21')
+#8 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+#9 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\upimir\Upimirjjr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-11 18:04:49 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = \'21\'
+AND `id` IN (\'21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = \'21\'
+AND `id` IN (\'21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = \'21\'
+AND `id` IN (\'21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `upimir_cursos`
+WHERE `KEY_CURSO` = :KEY_CURSO:
+AND `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Cursos_controller.php(73): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('21')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-11 18:08:14 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\upimir\Upimirjjr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `up...', 0)
+#1 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `up...')
+#2 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `up...')
+#3 C:\xampp\htdocs\upimir\Upimirjjr\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `up...', Array, false)
+#4 C:\xampp\htdocs\upimir\Upimirjjr\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\upimir\Upimirjjr\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\upimir\Upimirjjr\app\Controllers\Cursos_controller.php(71): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('21')
+#8 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+#9 C:\xampp\htdocs\upimir\Upimirjjr\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\upimir\Upimirjjr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-11 18:08:14 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `upimir_cursos`
+WHERE `id` IN (\'21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `upimir_cursos`
+WHERE `id` IN (\'21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `upimir_cursos`
+WHERE `id` IN (\'21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `upimir_cursos`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Cursos_controller.php(71): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('21')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 18:09:57 --> unlink(../public/files/): Is a directory
+in APPPATH\Controllers\Cursos_controller.php on line 69.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/files/): Is a directory', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 69)
+ 2 APPPATH\Controllers\Cursos_controller.php(69): unlink('../public/files/')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('20')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 18:22:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cursos_controller.php on line 67.
+ 1 APPPATH\Controllers\Cursos_controller.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('23')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 18:22:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cursos_controller.php on line 67.
+ 1 APPPATH\Controllers\Cursos_controller.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('23')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 18:22:57 --> unlink(../public/files/): Is a directory
+in APPPATH\Controllers\Cursos_controller.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/files/): Is a directory', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 71)
+ 2 APPPATH\Controllers\Cursos_controller.php(71): unlink('../public/files/')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-11 18:23:30 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Cursos_controller.php on line 67.
+ 1 APPPATH\Controllers\Cursos_controller.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\upimir\\Upimirjjr\\app\\Controllers\\Cursos_controller.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cursos_controller->borrar('24')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cursos_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
